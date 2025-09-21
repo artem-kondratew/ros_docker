@@ -5,6 +5,8 @@ if [[ $# -ne 3 ]]
 then
     echo $#
     echo "usage bash build.bash <container_name> <distro_image> <ROS_DISTRO>"
+    echo "example:"
+    echo "bash build.bash humble_docker osrf/ros:humble-desktop-full humble"
     exit 1
 fi
 
